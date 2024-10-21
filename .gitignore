@@ -16,3 +16,8 @@ logs/
 # Environment variables
 .env
 .env.local
+apps/common/dist
+apps/app-one/dist
+apps/app-one/build
+apps/app-two/dist
+apps/app-two/build
