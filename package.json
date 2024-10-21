@@ -1,0 +1,14 @@
+{
+  "name": "monorepo-nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev:app-one": "yarn workspace app-one dev",
+    "dev:app-two": "yarn workspace app-two dev"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}

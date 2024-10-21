@@ -1,0 +1,6 @@
+# Ignore output from TypeScript transpilation
+lib/
+dist/
+
+# Node modules
+node_modules/
